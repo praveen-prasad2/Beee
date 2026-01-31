@@ -63,7 +63,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${clashDisplay.className} ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${clashDisplay.className} ${geistSans.variable} ${geistMono.variable} bg-bee-bg antialiased`}
       >
         <Header />
         {children}
